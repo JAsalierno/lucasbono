@@ -1,0 +1,61 @@
+/* reset.css */
+
+/* Elimina los márgenes, rellenos y bordes predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que los elementos principales ocupen todo el ancho disponible */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Elimina el subrayado de los enlaces y establece color de texto en negro */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina los estilos de lista de los elementos ul y ol */
+ul, ol {
+    list-style: none;
+}
+
+/* Asegura que las imágenes se ajusten al contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Establece una fuente y tamaño base */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Establece que los botones y campos de formulario no tengan bordes */
+button, input, textarea {
+    border: none;
+    background: none;
+    font: inherit;
+}
+
+/* Elimina el borde de enfoque predeterminado, puedes personalizarlo */
+:focus {
+    outline: none;
+}
+
+/* Asegura que los elementos de bloque ocupen todo el ancho disponible */
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+/* Ajustes para elementos de tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

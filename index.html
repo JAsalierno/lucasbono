@@ -4,37 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="reset.css" />
     <title>mi primera pagina</title>
 </head>
 <body>
-    <H1 class="title" id="principal">MI PAGINA WEB</H1>
-    <p>Jessica Salierno</p>
-
-    <header>ESTA ES MI PRIMERA PAGINA DE COCINA
-        
+    
+    <header>
+        <div id="titulos">
+        <H1 class="title" id="principal">MI PAGINA WEB</H1>
+        <h2 class="subtitle" id="secundario">ESTA ES MI PRIMERA PAGINA DE COCINA</h2>
+            <p>Hecha por JESSICA SALIERNO</p>
+        </div>
     </header>
     <main>
-<img src="./cocina.jpg" class="logo" alt="">
-<div>
-    <article>
-<section>
-    <h2 class="title">RECETAS SALADAS</h2>
-    <h3>listado de recetas:</h3>
-    <ul>
-        <li>mayonesa de ave</li>
-        <li>albondigas de carne</li>
-        <li>pastel de papa</li>
-    </ul>
+        <h2 class="subtitle2" id="secundario">EN ESTA PAGINA VAN A ENCONTRAR VARIADAS RECETAS!!</h2>
+<img src="./cocina.jpg" class="logo1" alt="">
+<article></article>
+<div id="cards-containers">
+    
+    <div class="cards">
+        
+        <section>
+        <h2 class="title">SALADAS</h2>
+        <img src="./salado.jpg" class="logo" alt="">
+       
+        <ul class="lista">
+            <li>mayonesa de ave</li>
+            <li>albondigas de carne</li>
+            <li>pastel de papa</li>
+        </ul>
 </section>
-</div>
-</article>
 
-<article>
-    <hr />
+</div>
+<hr 7>
+<div class="cards">
+
 <section>
-    <h2 class="title">RECETAS DULCES</h2>
-    <h3>listado de recetas:</h3>
-    <ol>
+    <h2 class="title">DULCES</h2>
+    <img src="./dulce.jpg" class="logo" alt="">
+    
+    <ol class="lista">
         <li>torta galesa</li>
         <li>masas secas</li>
         <li>lemon pie</li>
@@ -43,13 +52,16 @@
 
 </section>
 
-</article>
+
+</div>
 <hr 7>
-<article>
+<div class="cards">
+
 <section>
-<h2 class="title">RECETAS AGRIDULCES</h2>
-<h3>listado de recetas:</h3>
-<ul>
+<h2 class="title">AGRIDULCES</h2>
+<img src="./agri.jpg" class="logo" alt="">
+
+<ul class="lista">
     <li>melon con jamon crudo</li>
     <li>pollo a la naranja</li>
     <li>ensalada libanesa</li>
@@ -59,6 +71,9 @@
 </section>
 
 </article>
+</div>
+
+</div>
     </main>
 
     <footer>
